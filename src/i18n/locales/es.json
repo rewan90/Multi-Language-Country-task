@@ -1,0 +1,29 @@
+{ "locale": {
+    "en": "English",
+    "ru": "Русский",
+    "ar": " العَرَبيَّة",
+    "es":"Español"
+
+  },
+  "message": {
+  
+    "Country_List": "Página de lista de países" ,
+    "Add_Country":"Agregar país",    
+    "Name":"nombre",    
+    "capital":"capital",    
+    "ISOcode":"código ISO",    
+    "region":"región",    
+    "submit":"entregar",    
+    "Country_Details":"Detalles del país",    
+    "Back":"Atrás",    
+    "Edit_country":"Editar país",    
+    "Update":"Actualizar",
+    "Page_Not_Found":"Página no encontrada",
+    "delete":"borrar",    
+    "view":"vista",    
+    "edit":"editar",
+    "choose_language":"elige lengua"
+
+
+  }
+}

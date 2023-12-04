@@ -1,0 +1,31 @@
+{ "locale": {
+    "en": "English",
+    "ru": "Русский",
+    "ar": " العَرَبيَّة",
+    "es":"Español"
+
+
+  },
+  "message": {
+
+  "Country_List": "Country List ",
+  "Add_Country":"Add Country",    
+  "Name":"Name",    
+  "capital":"capital",    
+  "ISOcode":"ISOcode",    
+  "region":"region",    
+  "submit":"submit",    
+  "Country_Details":"Country Details",    
+  "Back":"Back",    
+  "Edit_country":"Edit country",    
+  "Update":"Update",
+  "Page_Not_Found":"Page Not Found",
+  "delete":"يمسح",    
+  "view":"عرض",    
+  "edit":"تعديل",
+  "choose_language":"choose language"
+
+
+  }
+}
+

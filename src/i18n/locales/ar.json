@@ -1,0 +1,36 @@
+{
+  "locale": {
+    "ar": " العَرَبيَّة",
+    "ru": "Русский",
+    "en": "English",
+    "es":"Español"
+
+
+
+  },
+   
+  "message": {
+
+    "Country_List": "قائمة الدول ",
+    "Add_Country":"أضف بلد",    
+    "Name":"اسم",    
+    "capital":"عاصمة",    
+    "ISOcode":"رمز ISO",    
+    "region":"منطقة",    
+    "submit":"ارسل",    
+    "Country_Details":"تفاصيل البلد",    
+    "Back":"الرجوع",    
+    "Edit_country":" تتعديل البلد ",
+    "Update":"تحديث",
+    "Page_Not_Found":"الصفحة غير موجودة",
+    "delete":"مسح",    
+    "view":"عرض",    
+    "edit":"تعديل",
+    "choose_language":"اختار اللغة"
+
+
+
+  }
+
+
+}

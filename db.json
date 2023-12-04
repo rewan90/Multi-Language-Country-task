@@ -1,0 +1,20 @@
+{
+  "countries": [
+    {
+      "id": 1,
+      "name": "egypt",
+      "capital": "Cairto",
+      "ISOcode": "EG",
+      "region": "Africa",
+      "language": "arabic"
+    },
+    {
+      "name": "England ",
+      "capital": "London",
+      "ISOcode": "BR",
+      "region": "EURO",
+      "id": 5367356,
+      "language": "english"
+    }
+  ]
+}

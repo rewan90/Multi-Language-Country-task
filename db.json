@@ -15,7 +15,22 @@
       "region": "EURO",
       "id": 5367356,
       "lang": "en"
+    },
+    {
+      "name": "Spain",
+      "capital": "Madrid",
+      "ISOcode": "ES",
+      "region": "Europe",
+      "lang": "es",
+      "id": 69164
+    },
+    {
+      "name": "Russia ",
+      "capital": "Moscow ",
+      "ISOcode": "ru",
+      "region": " Europe, Asia",
+      "lang": "ru",
+      "id": 42069
     }
-    
   ]
 }

@@ -33,7 +33,7 @@
             <input type="text" placeholder="region" class="form-control" v-model="country.region" required />
           </div>
           <div class="mb-2">
-            <input type="text" placeholder="region" class="form-control" v-model="country.lang" required />
+            <input type="text" placeholder="language" class="form-control" v-model="country.lang" required />
           </div>
           <div class="mb-2 d-flex justify-content-between">
             <button type="submit" class="btn btn-primary" value="Update"> {{ $t("message.Update") }} </button>
@@ -88,8 +88,7 @@ export default {
           capital: this.country.capital,
           ISOcode: this.country.ISOcode,
           region: this.country.region,
-          CountryId: this.country,
-
+          lang: this.country.lang,
         }),
       })
         .then(() => {

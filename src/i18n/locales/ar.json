@@ -4,13 +4,10 @@
     "ru": "Русский",
     "en": "English",
     "es":"Español"
-
-
-
   },
    
   "message": {
-
+    "Choose_Country": "اختار دولة ",
     "Country_List": "قائمة الدول ",
     "Add_Country":"أضف بلد",    
     "Name":"اسم",    
@@ -26,7 +23,8 @@
     "delete":"مسح",    
     "view":"عرض",    
     "edit":"تعديل",
-    "choose_language":"اختار اللغة"
+    "choose_language":"اختار اللغة",
+    "language":"اللغة"
 
 
 

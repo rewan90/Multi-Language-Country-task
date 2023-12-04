@@ -2,7 +2,7 @@
   <div class="container mt-3">
     <div class="row">
       <div class="col">
-        <p class="h3 text-primary fw-bold">  {{ $t("message.Add_Country") }}</p>
+        <p class="h3 text-primary fw-bold d-flex justify-content-center">  {{ $t("message.Add_Country") }}</p>
       </div>
     </div>
   </div>
@@ -28,7 +28,7 @@
           </div>
           <div class="mb-2">
           {{ $t("message.choose_language") }} :
-            <LanguageSwitcher></LanguageSwitcher>
+            <LangOptions :lang="lang" @changeonce="changeLang"></LangOptions>
 
 
           </div>
@@ -45,20 +45,20 @@
 
 <script>
 import swal from 'sweetalert';
-import LanguageSwitcher from "@/components/LanguageSwitcher.vue"
+import LangOptions from "@/components/LangOptions.vue"
 import Tr from "@/i18n/translation"
 export default {
-  components: { LanguageSwitcher },
+  components: { LangOptions },
   name: "AddCountry",
   data: function () {
     return {
       name: "",
+      lang: "en",
       capital: "",
       ISOcode: "",
       region: "",
       msg: [],
       Tr,
-
     };
   },
 
@@ -70,7 +70,7 @@ export default {
         capital: this.capital,
         ISOcode: this.ISOcode,
         region: this.region,
-
+        lang: this.lang,
         parent_id: this.$route.params.CountryId == 0 ? null : this.$route.params.CountryId,
         id: Math.floor(Math.random() * 100000),
       };
@@ -115,7 +115,11 @@ export default {
           }
         });
     },
-  },
+    changeLang(newLang){
+      console.log(newLang);
+      this.lang = newLang
+    }
+  }
 };
 </script>
 

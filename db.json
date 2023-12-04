@@ -6,7 +6,7 @@
       "capital": "Cairto",
       "ISOcode": "EG",
       "region": "Africa",
-      "language": "arabic"
+      "lang": "ar"
     },
     {
       "name": "England ",
@@ -14,7 +14,8 @@
       "ISOcode": "BR",
       "region": "EURO",
       "id": 5367356,
-      "language": "english"
+      "lang": "en"
     }
+    
   ]
 }

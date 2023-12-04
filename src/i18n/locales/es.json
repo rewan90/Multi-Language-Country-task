@@ -6,7 +6,8 @@
 
   },
   "message": {
-  
+    "Choose_Country": "Elige país",
+
     "Country_List": "Página de lista de países" ,
     "Add_Country":"Agregar país",    
     "Name":"nombre",    
@@ -22,7 +23,9 @@
     "delete":"borrar",    
     "view":"vista",    
     "edit":"editar",
-    "choose_language":"elige lengua"
+    "choose_language":"elige lengua",
+    "language":" lengua"
+
 
 
   }

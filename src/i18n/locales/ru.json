@@ -7,7 +7,7 @@
 
   },
   "message": {
-
+    "Choose_Country": "Выберите страну",
     "Country_List": "Страница со списком стран" ,
     "Add_Country":"Добавить страну",    
     "Name":"имя",    
@@ -23,7 +23,10 @@
     "delete":"удалить",    
     "view":"вид",    
     "edit":"редактировать",
-    "choose_language":"выберите язык"
+    "choose_language":"выберите язык",
+    "language":"выберите"
+
+    
 
 
 

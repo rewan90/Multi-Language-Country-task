@@ -2,7 +2,7 @@
   <div class="container mt-3 ">
     <div class="row">
       <div class="col">
-        <p class="h3 text-primary fw-bold">  {{ $t("message.Edit_country") }} </p>
+        <p class="h3 text-primary fw-bold d-flex justify-content-center">  {{ $t("message.Edit_country") }} </p>
       </div>
     </div>
   </div>
@@ -32,7 +32,9 @@
           <div class="mb-2">
             <input type="text" placeholder="region" class="form-control" v-model="country.region" required />
           </div>
-
+          <div class="mb-2">
+            <input type="text" placeholder="region" class="form-control" v-model="country.lang" required />
+          </div>
           <div class="mb-2 d-flex justify-content-between">
             <button type="submit" class="btn btn-primary" value="Update"> {{ $t("message.Update") }} </button>
             <router-link to="/" class="btn btn-primary">

@@ -7,7 +7,7 @@
 
   },
   "message": {
-
+  "Choose_Country": "Choose Country",
   "Country_List": "Country List ",
   "Add_Country":"Add Country",    
   "Name":"Name",    
@@ -20,10 +20,13 @@
   "Edit_country":"Edit country",    
   "Update":"Update",
   "Page_Not_Found":"Page Not Found",
-  "delete":"يمسح",    
-  "view":"عرض",    
-  "edit":"تعديل",
-  "choose_language":"choose language"
+  "delete":"delete",    
+  "view":"view",    
+  "edit":"edit",
+  "choose_language":"choose language",
+  "language":" language"
+
+
 
 
   }

@@ -2,7 +2,7 @@
   <div class="container mt-4 ">
     <div class="row">
       <div class="col">
-        <p class="h3 text-primary fw-bold"> {{ $t("message.Country_Details") }}</p>
+        <p class="h3 text-primary fw-bold d-flex justify-content-center"> {{ $t("message.Country_Details") }}</p>
       </div>
     </div>
   </div>
@@ -29,7 +29,7 @@
   <div class="container mt-4" v-if="!loading && isDone()">
     <div class="row align-items-cente">
       <div class="col-sm-4">
-        <i class="fa fa-country-circle fa-8x"></i>
+        <Icon icon="openmoji:deep-yellow-flag" width="200" />
       </div>
       <div class="col-md-6">
         <ul class="list-group">
@@ -37,6 +37,8 @@
                   <li class="list-group-item">{{ $t("message.capital") }} : <span class="fw-bold">{{ country.capital }}</span></li>
                   <li class="list-group-item">{{ $t("message.ISOcode") }} : <span class="fw-bold">{{ country.ISOcode }}</span></li>
                   <li class="list-group-item">{{ $t("message.region") }} : <span class="fw-bold">{{ country.region }}</span></li>
+                  <li class="list-group-item">{{ $t("message.language") }} : <span class="fw-bold">{{ country.lang }}</span></li>
+
         </ul>
       </div>
     </div>
@@ -51,10 +53,13 @@
 </template>
   
 <script>
+import { Icon } from '@iconify/vue';
 
 export default {
   name: "CountryDetails",
-
+  components: {
+		Icon,
+	},
   data() {
     return {
       CountryId: this.$route.params.CountryId,

@@ -2,7 +2,7 @@
   <div class="container mt-3">
     <div class="row">
       <div class="col">
-        <p class="h3 text-primary fw-bold">  {{ $t("message.Country_List") }}
+        <p class="h3 text-primary fw-bold d-flex justify-content-end"> 
 
 
           <router-link to="/Addcountry" class="btn btn-primary btn-sm">
@@ -39,9 +39,8 @@
         <div class="card my-2 list-group-item-primary shadow-lg">
           <div class="card-body">
             <div class="row align-items-center mb-2">
-              <div class="col-sm-6">
-                <i class="fa fa-country-circle fa-5x"></i>
-              </div>
+              <div class="col-sm-6 d-flex justify-content-center">
+                <Icon icon="openmoji:deep-purple-flag" width="200" />              </div>
               <div class="col-sm-6">
                 <ul class="list-group">
                   <li class="list-group-item"> {{ $t("message.Name") }}
@@ -51,6 +50,8 @@
                   <li class="list-group-item"> {{ $t("message.ISOcode") }}: <span class="fw-bold">{{ country.ISOcode
                   }}</span></li>
                   <li class="list-group-item"> {{ $t("message.region") }}: <span class="fw-bold">{{ country.region
+                  }}</span></li>
+                  <li class="list-group-item"> {{ $t("message.language") }}: <span class="fw-bold">{{ country.lang
                   }}</span></li>
                 </ul>
               </div>
@@ -78,12 +79,15 @@
   
 <script>
 import swal from 'sweetalert';
-
+import { Icon } from '@iconify/vue';
 
 export default {
   name: "countryiesList",
-
+	components: {
+		Icon,
+	},
   data: function () {
+
     return {
       loading: false,
       countryies: [],
